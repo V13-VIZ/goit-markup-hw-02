@@ -32,16 +32,20 @@ text-transform: uppercase;}
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.link:hover{color: #404BBF;}
+.link:hover,.link:focus{color: #404BBF;}
 .kontakt-link{
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
-    font-style: normal
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.kontakt-link:hover{color: #404BBF;}
+.kontakt-link:hover, .kontakt-link:focus{color: #404BBF;}
 .main{
     background: #2e2f42;}
 
@@ -51,7 +55,7 @@ line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;}
-    .order{line-height: 150%;
+    .order-btn{line-height: 150%;
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
