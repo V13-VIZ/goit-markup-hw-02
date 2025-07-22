@@ -25,6 +25,7 @@ line-height: 1.17;
 color: #4d5ae5;
 letter-spacing: 0.03em;
 text-transform: uppercase;}
+.logo-accent{color: #2e2f42}
 
 .link {
     text-decoration: none;
@@ -33,13 +34,14 @@ text-transform: uppercase;}
     font-size: 16px;
 }
 .link:hover{color: #404BBF;}
-.kontakt{
+.kontakt-link{
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     font-style: normal
 }
+.kontakt-link:hover{color: #404BBF;}
 .main{
     background: #2e2f42;}
 
