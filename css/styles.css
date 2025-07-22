@@ -1,5 +1,86 @@
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 500, 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;}
+                
+        
+.raleway{ 
+    font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;}
+
 body{font-family: "Roboto", sans-serif;
 background-color: #fff;
 color: #2e2f42;}
+
 ul, ol{list-style-type: none;}
-.link {text-decoration: none;}
+
+.logo{text-decoration: none;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+color: #2e2f42;}
+
+.link {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+}
+.link:hover{color: #404BBF;}
+.kontakt{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+.main{box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #2e2f42;}
+
+.main-title{font-weight: 700;
+    font-size: 56px;
+line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;}
+    .order{line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+    font-weight: 500;
+        font-size: 16px;
+    cursor: pointer;}
+    .order:hover{background-color: #404BBF;}
+
+.advantages-title{font-weight: 500;
+    font-size: 20px;}
+    .advantages-text{font-weight: 400;
+        font-size: 16px;color: #434455;}
+
+.team{background: #f4f4fd;}
+.title-head{text-align: center;font-weight: 700;
+    font-size: 36px;}
+    .team-name{font-weight: 500;
+        font-size: 20px;text-align: center;}
+        .team-text{font-weight: 400;
+            font-size: 16px;
+        text-align: center;
+            color: #434455;}
+            .team-page{box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                background: #fff;}
+
+.portfolio-name{font-weight: 500;
+    font-size: 20px;}
+    .portfolio-text{font-weight: 400;
+        font-size: 16px;
+    color: #434455;}
+
+
+
+.end{background: #2e2f42;
+color: #f4f4fd;}
