@@ -45,6 +45,7 @@ text-transform: uppercase;}
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.kontakt{font-style: normal}
 .kontakt-link:hover, .kontakt-link:focus{color: #404BBF;}
 .main{
     background: #2e2f42;}
@@ -63,11 +64,15 @@ line-height: 107%;
         font-size: 16px;
     cursor: pointer;}
     .order-btn:hover, .order-btn:focus{background-color: #404BBF;}
-
+.advantages>h2{line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;}
 .advantages-title{font-weight: 500;
     font-size: 20px;}
     .advantages-text{font-weight: 400;
-        font-size: 16px;color: #434455;}
+        font-size: 16px;color: #434455;
+    line-height: 1.5;
+letter-spacing: 0.02em;}
 
 .team{background: #f4f4fd;}
 .title-head{text-align: center;font-weight: 700;
@@ -75,21 +80,30 @@ line-height: 107%;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2e2f42}
+color: #2e2f42
+}
     .team-name{font-weight: 500;
-        font-size: 20px;text-align: center;}
+        font-size: 20px;text-align: center;
+    line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;}
         .team-text{font-weight: 400;
             font-size: 16px;
         text-align: center;
-            color: #434455;}
+            line-height: 1.5;
+        letter-spacing: 0.02em;}
             .team-page{
                 background: #fff;}
 
 .portfolio-name{font-weight: 500;
-    font-size: 20px;}
+    font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;}
     .portfolio-text{font-weight: 400;
         font-size: 16px;
-    color: #434455;}
+    line-height: 1.5;
+letter-spacing: 0.02em;}
 
 
 
